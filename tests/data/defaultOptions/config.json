@@ -1,0 +1,23 @@
+{
+  "parameters": {
+    "api": {
+      "baseUrl": "http://private-834388-extractormock.apiary-mock.com",
+      "http": {
+        "defaultOptions": {
+          "params": {
+            "param": "value"
+          }
+        }
+      }
+    },
+    "config": {
+      "outputBucket": "defaultOptions",
+      "debug": 1,
+      "jobs": [
+        {
+          "endpoint": "defaultOptions"
+        }
+      ]
+    }
+  }
+}

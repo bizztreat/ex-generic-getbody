@@ -1,0 +1,17 @@
+{
+  "parameters": {
+    "api": {
+      "baseUrl": "http://mock-server:80/130-unsupported-nested-array/"
+    },
+    "config": {
+      "debug": true,
+      "jobs": [
+        {
+          "endpoint": "rows",
+          "dataField": "rows",
+          "dataType": "rows"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "parameters": {
+    "api": {
+      "baseUrl": "http://private-834388-extractormock.apiary-mock.com"
+    },
+    "config": {
+      "jobs": [
+        {
+          "endpoint": "defaultBucket",
+          "dataType": "db"
+        }
+      ]
+    }
+  }
+}

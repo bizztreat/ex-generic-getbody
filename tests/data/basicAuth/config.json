@@ -1,0 +1,21 @@
+{
+  "parameters": {
+    "api": {
+      "baseUrl": "http://private-834388-extractormock.apiary-mock.com",
+      "authentication": {
+        "type": "basic"
+      }
+    },
+    "config": {
+      "username": "test",
+      "password": "test",
+      "outputBucket": "getPost",
+      "jobs": [
+        {
+          "endpoint": "basic",
+          "dataType": "get"
+        }
+      ]
+    }
+  }
+}

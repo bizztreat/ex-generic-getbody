@@ -1,2 +1,5 @@
+.idea
+README.md
 vendor
-.git
+data
+.tmp

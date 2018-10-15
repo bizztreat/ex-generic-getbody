@@ -1,0 +1,25 @@
+{
+    "parameters": {
+        "api": {
+            "baseUrl": "http://mock-server:80/135-basic-child-job-array/"
+        },
+        "config": {
+            "debug": true,
+            "outputBucket": "mock-server",
+            "jobs": [
+                {
+                    "endpoint": "users",
+                    "children": [
+                        {
+                            "endpoint": "user/{child-id}",
+                            "dataField": ".",
+                            "placeholders": {
+                                "child-id": "children"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,12 @@
+[
+    {
+        "id": 123,
+        "name": "John Doe",
+        "tag": "CFO"
+    },
+    {
+        "id": 234,
+        "name": "Jane Doe",
+        "tag": "CTO"
+    }
+]
